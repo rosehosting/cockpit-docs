@@ -20,7 +20,7 @@ server {
 
     # Change "cockpit" to the folder name containing cockpit files.
     location /cockpit {
-        try_files $uri $uri/ /cockpit/index.php;
+        try_files $uri $uri/ /cockpit/index.php?$args;
         index index.php index.html index.htm;
     }
 
