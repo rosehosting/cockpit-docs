@@ -5,7 +5,7 @@ By default Cockpit uses SQLite as its default storage engine. All ***.sqlite** d
 Here are some tips how to secure your data:
 
 If you're using Apache as your webserver then you should be pretty save because Cockpit comes already with some
-precautions to prevent SQLite files to be downloaded by setting some protection rules via ```.htaccess``` files. So please make that overrides via ```.htaccess``` files are enabled.
+precautions to prevent SQLite files to be downloaded by setting some protection rules via ```.htaccess``` files. So please make sure that overrides via ```.htaccess``` files are enabled.
 
 If you're using **nginx** just add the following rule to your server configuration:
 
