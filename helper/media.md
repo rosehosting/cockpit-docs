@@ -15,7 +15,7 @@ Or use the shortcut function:
     $thumburl = thumbnail_url("path/To/Image.png", $width, $height [, $options]);
 
 
-##### Genrate thumbnail and echo image tag:
+##### Generate thumbnail and echo image tag:
 
     <?php thumbnail("myimage.jpg", 200, 120 [, $options]);?>
 
