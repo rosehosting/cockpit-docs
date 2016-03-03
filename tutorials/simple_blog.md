@@ -88,7 +88,7 @@ $app->run();
 ...
 
 <?php foreach ($posts as $post): ?>
-    <h2><a href="<?php $this->route('/article/'.$post['_id']);?>"><?php=$post['title'];?></a></h2>
+    <h2><a href="<?php $this->route('/article/'.$post['_id']);?>"><?=$post['title'];?></a></h2>
 <?php endforeach; ?>
 
 ...
@@ -101,10 +101,10 @@ $app->run();
 
 ...
 
-<h1><?php=$post['title'];?></h1>
+<h1><?=$post['title'];?></h1>
 
 <p>
-    <?php=$post['content'];?>
+    <?=$post['content'];?>
 </p>
 
 ...
@@ -146,7 +146,7 @@ $app->bind("/", function() use($app) {
 ...
 
 <?php foreach ($posts as $post): ?>
-    <h2><a href="<?php $this->route('/article/'.$post['_id']);?>"><?php=$post['title'];?></a></h2>
+    <h2><a href="<?php $this->route('/article/'.$post['_id']);?>"><?=$post['title'];?></a></h2>
 <?php endforeach; ?>
 
 ...
